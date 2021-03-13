@@ -9,16 +9,16 @@
 
 using namespace std;
 
+/*
+ * Estructura de datos basada en una lista enlazada que permite guarda varios nodos
+ */
 class List
 {
 private:
-
     Node* start = NULL;
     Collector* collector;
 public:
     Collector *getCollector() const;
-
-public:
     List();
     ~List();
     void addFirst(int value);

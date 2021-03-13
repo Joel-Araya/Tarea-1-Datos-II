@@ -4,25 +4,39 @@
 
 #include "Collector.h"
 
+
+/*
+ * Contructor de collector
+ */
 Collector::Collector()
 {
 }
 
+/*
+ * Destructor de collector
+ */
 Collector::~Collector()
 {
 }
 
+/*
+ * Agrega a collector la dirección de memoria del nodo eliminado
+ * @Param ptrNode
+ */
 void *Collector::getNode(void* ptrNode) {
     cout<<"en collector ha ingresado el nodo con direccion "<<ptrNode<<endl;
     vect.push_back(ptrNode);
-    return nullptr;
 }
 
+/*
+ * Muestra los datos almacenados en collector
+ */
 void Collector::showListPtrs() {
-    if (vect.size()==0){
+    if (vect.empty()){
         cout<<"El collector se encuentra vacio";
     } else {
         cout<<vect.size()<<endl;
+
 
 /*        for (int i = 0; i < vect.size(); ++i) {
             cout<<vect[i]<<endl;

@@ -6,10 +6,13 @@
 #define TAREA_1_COLLECTOR_H
 #include <array>
 #include <vector>
-
-using namespace std;
 //#include "../List/List.h"
 
+using namespace std;
+
+/*
+ * Obtiene la dirección de memoria de los nodos eliminados
+ */
 class Collector
 {
 private:

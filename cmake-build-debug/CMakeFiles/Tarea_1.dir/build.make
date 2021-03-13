@@ -63,10 +63,10 @@ RM = /home/joel/Descargas/clion-2020.3.2/bin/cmake/linux/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/joel/Tarea_1
+CMAKE_SOURCE_DIR = /home/joel/Escritorio/Tarea_1
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/joel/Tarea_1/cmake-build-debug
+CMAKE_BINARY_DIR = /home/joel/Escritorio/Tarea_1/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Tarea_1.dir/depend.make
@@ -79,55 +79,55 @@ include CMakeFiles/Tarea_1.dir/flags.make
 
 CMakeFiles/Tarea_1.dir/main.cpp.o: CMakeFiles/Tarea_1.dir/flags.make
 CMakeFiles/Tarea_1.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joel/Tarea_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tarea_1.dir/main.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_1.dir/main.cpp.o -c /home/joel/Tarea_1/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joel/Escritorio/Tarea_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/Tarea_1.dir/main.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_1.dir/main.cpp.o -c /home/joel/Escritorio/Tarea_1/main.cpp
 
 CMakeFiles/Tarea_1.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tarea_1.dir/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joel/Tarea_1/main.cpp > CMakeFiles/Tarea_1.dir/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joel/Escritorio/Tarea_1/main.cpp > CMakeFiles/Tarea_1.dir/main.cpp.i
 
 CMakeFiles/Tarea_1.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_1.dir/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joel/Tarea_1/main.cpp -o CMakeFiles/Tarea_1.dir/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joel/Escritorio/Tarea_1/main.cpp -o CMakeFiles/Tarea_1.dir/main.cpp.s
 
 CMakeFiles/Tarea_1.dir/Node/Node.cpp.o: CMakeFiles/Tarea_1.dir/flags.make
 CMakeFiles/Tarea_1.dir/Node/Node.cpp.o: ../Node/Node.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joel/Tarea_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Tarea_1.dir/Node/Node.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_1.dir/Node/Node.cpp.o -c /home/joel/Tarea_1/Node/Node.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joel/Escritorio/Tarea_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Tarea_1.dir/Node/Node.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_1.dir/Node/Node.cpp.o -c /home/joel/Escritorio/Tarea_1/Node/Node.cpp
 
 CMakeFiles/Tarea_1.dir/Node/Node.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tarea_1.dir/Node/Node.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joel/Tarea_1/Node/Node.cpp > CMakeFiles/Tarea_1.dir/Node/Node.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joel/Escritorio/Tarea_1/Node/Node.cpp > CMakeFiles/Tarea_1.dir/Node/Node.cpp.i
 
 CMakeFiles/Tarea_1.dir/Node/Node.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_1.dir/Node/Node.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joel/Tarea_1/Node/Node.cpp -o CMakeFiles/Tarea_1.dir/Node/Node.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joel/Escritorio/Tarea_1/Node/Node.cpp -o CMakeFiles/Tarea_1.dir/Node/Node.cpp.s
 
 CMakeFiles/Tarea_1.dir/List/List.cpp.o: CMakeFiles/Tarea_1.dir/flags.make
 CMakeFiles/Tarea_1.dir/List/List.cpp.o: ../List/List.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joel/Tarea_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Tarea_1.dir/List/List.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_1.dir/List/List.cpp.o -c /home/joel/Tarea_1/List/List.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joel/Escritorio/Tarea_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Tarea_1.dir/List/List.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_1.dir/List/List.cpp.o -c /home/joel/Escritorio/Tarea_1/List/List.cpp
 
 CMakeFiles/Tarea_1.dir/List/List.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tarea_1.dir/List/List.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joel/Tarea_1/List/List.cpp > CMakeFiles/Tarea_1.dir/List/List.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joel/Escritorio/Tarea_1/List/List.cpp > CMakeFiles/Tarea_1.dir/List/List.cpp.i
 
 CMakeFiles/Tarea_1.dir/List/List.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_1.dir/List/List.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joel/Tarea_1/List/List.cpp -o CMakeFiles/Tarea_1.dir/List/List.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joel/Escritorio/Tarea_1/List/List.cpp -o CMakeFiles/Tarea_1.dir/List/List.cpp.s
 
 CMakeFiles/Tarea_1.dir/Collector/Collector.cpp.o: CMakeFiles/Tarea_1.dir/flags.make
 CMakeFiles/Tarea_1.dir/Collector/Collector.cpp.o: ../Collector/Collector.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joel/Tarea_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Tarea_1.dir/Collector/Collector.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_1.dir/Collector/Collector.cpp.o -c /home/joel/Tarea_1/Collector/Collector.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/joel/Escritorio/Tarea_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Tarea_1.dir/Collector/Collector.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Tarea_1.dir/Collector/Collector.cpp.o -c /home/joel/Escritorio/Tarea_1/Collector/Collector.cpp
 
 CMakeFiles/Tarea_1.dir/Collector/Collector.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Tarea_1.dir/Collector/Collector.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joel/Tarea_1/Collector/Collector.cpp > CMakeFiles/Tarea_1.dir/Collector/Collector.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/joel/Escritorio/Tarea_1/Collector/Collector.cpp > CMakeFiles/Tarea_1.dir/Collector/Collector.cpp.i
 
 CMakeFiles/Tarea_1.dir/Collector/Collector.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Tarea_1.dir/Collector/Collector.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joel/Tarea_1/Collector/Collector.cpp -o CMakeFiles/Tarea_1.dir/Collector/Collector.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/joel/Escritorio/Tarea_1/Collector/Collector.cpp -o CMakeFiles/Tarea_1.dir/Collector/Collector.cpp.s
 
 # Object files for target Tarea_1
 Tarea_1_OBJECTS = \
@@ -145,7 +145,7 @@ Tarea_1: CMakeFiles/Tarea_1.dir/List/List.cpp.o
 Tarea_1: CMakeFiles/Tarea_1.dir/Collector/Collector.cpp.o
 Tarea_1: CMakeFiles/Tarea_1.dir/build.make
 Tarea_1: CMakeFiles/Tarea_1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joel/Tarea_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Tarea_1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/joel/Escritorio/Tarea_1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable Tarea_1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Tarea_1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -158,6 +158,6 @@ CMakeFiles/Tarea_1.dir/clean:
 .PHONY : CMakeFiles/Tarea_1.dir/clean
 
 CMakeFiles/Tarea_1.dir/depend:
-	cd /home/joel/Tarea_1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joel/Tarea_1 /home/joel/Tarea_1 /home/joel/Tarea_1/cmake-build-debug /home/joel/Tarea_1/cmake-build-debug /home/joel/Tarea_1/cmake-build-debug/CMakeFiles/Tarea_1.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/joel/Escritorio/Tarea_1/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/joel/Escritorio/Tarea_1 /home/joel/Escritorio/Tarea_1 /home/joel/Escritorio/Tarea_1/cmake-build-debug /home/joel/Escritorio/Tarea_1/cmake-build-debug /home/joel/Escritorio/Tarea_1/cmake-build-debug/CMakeFiles/Tarea_1.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Tarea_1.dir/depend
 

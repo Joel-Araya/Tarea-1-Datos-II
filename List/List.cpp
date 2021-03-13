@@ -4,13 +4,24 @@
 
 #include "List.h"
 
+/*
+ * Constructor de la clase List
+ */
 List::List()
 {
 }
+
+/*
+ * Destructor de la clase List
+ */
 List::~List()
 {
 }
 
+/*
+ * Agrega un nuevo nodo en la primera posición de la lista, desplazando las otras una posición adelante
+ * @Param value
+ */
 void List::addFirst(int value){
     if (start==NULL){
         start = new Node(value);
@@ -24,10 +35,17 @@ void List::addFirst(int value){
     setCollector(start->collector);
 }
 
+/*
+ * Retorna el puntero del nodo inicial
+ * @Return el puntero inicial start
+ */
 Node* List::getFirst(){
     return start;
 }
 
+/*
+ * Muestra en consola los valores correspondientes a los nodos almacenados
+ */
 void List::showList() {
     cout<<endl;
     if (start == NULL) {
@@ -45,10 +63,18 @@ void List::showList() {
     }
 }
 
+/*
+ * Obtiene una referencia a collector
+ * @Param collector
+ */
 void List::setCollector(Collector collector1) {
     collector = &collector1;
 }
 
+/*
+ * Permite obtener el puntero del nodo en la posición especificada
+ * @Param n
+ */
 Node* List::get(int n) {
     if (start == NULL) {
         cout << "Esta lista se encuentra vacia";
@@ -68,6 +94,10 @@ Node* List::get(int n) {
     }
 }
 
+/*
+ * Elimina el nodo de la posición indicada de la lista
+ * @Param n
+ */
 void List::deleteNode(int n) {
 
     if(n==0){
@@ -86,6 +116,10 @@ void List::deleteNode(int n) {
     }
 }
 
+/*
+ * Permite obtener el puntro de collector
+ * @Return puntero a collector
+ */
 Collector *List::getCollector() const {
     return collector;
 }

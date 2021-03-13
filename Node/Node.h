@@ -11,10 +11,11 @@
 #include "../Collector/Collector.h"
 
 using namespace std;
-
+/*
+ * Genera un objeto de la clase nodo y que contiene un valor y un puntero al siguiente nodo
+ */
 class Node
 {
-    static int check;
 private:
     int value;
     Node* ptrNext=NULL;
@@ -22,19 +23,13 @@ public:
 
     Node(int);
     ~Node();
-
     int getValue();
     void setValue(int);
-
     void setPtrNext(Node*);
     Node * getNext();
-
     void printNode();
-
     void* operator new(size_t size);
     void operator delete (void *pVoid);
-
-
     static Collector collector;
 };
 

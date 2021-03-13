@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/home/joel/Tarea_1/Collector/Collector.cpp
+/home/joel/Escritorio/Tarea_1/Collector/Collector.cpp
 Collector.h
-/home/joel/Tarea_1/Collector/Collector.h
+/home/joel/Escritorio/Tarea_1/Collector/Collector.h
 
-/home/joel/Tarea_1/Collector/Collector.h
+/home/joel/Escritorio/Tarea_1/Collector/Collector.h
 iostream
 -
 array
@@ -18,37 +18,37 @@ array
 vector
 -
 
-/home/joel/Tarea_1/List/List.cpp
+/home/joel/Escritorio/Tarea_1/List/List.cpp
 List.h
-/home/joel/Tarea_1/List/List.h
+/home/joel/Escritorio/Tarea_1/List/List.h
 
-/home/joel/Tarea_1/List/List.h
+/home/joel/Escritorio/Tarea_1/List/List.h
 ../Node/Node.h
-/home/joel/Tarea_1/Node/Node.h
+/home/joel/Escritorio/Tarea_1/Node/Node.h
 iostream
 -
 
-/home/joel/Tarea_1/Node/Node.cpp
+/home/joel/Escritorio/Tarea_1/Node/Node.cpp
 Node.h
-/home/joel/Tarea_1/Node/Node.h
+/home/joel/Escritorio/Tarea_1/Node/Node.h
 iostream
 -
 
-/home/joel/Tarea_1/Node/Node.h
+/home/joel/Escritorio/Tarea_1/Node/Node.h
 clocale
 -
 iostream
 -
 ../Collector/Collector.h
-/home/joel/Tarea_1/Collector/Collector.h
+/home/joel/Escritorio/Tarea_1/Collector/Collector.h
 
-/home/joel/Tarea_1/main.cpp
+/home/joel/Escritorio/Tarea_1/main.cpp
 iostream
 -
 Node/Node.h
-/home/joel/Tarea_1/Node/Node.h
+/home/joel/Escritorio/Tarea_1/Node/Node.h
 List/List.h
-/home/joel/Tarea_1/List/List.h
+/home/joel/Escritorio/Tarea_1/List/List.h
 Collector/Collector.h
-/home/joel/Tarea_1/Collector/Collector.h
+/home/joel/Escritorio/Tarea_1/Collector/Collector.h
 
